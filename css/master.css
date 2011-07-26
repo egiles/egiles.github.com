@@ -1,0 +1,93 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, Helvetica, Verdana, Sans-serif;
+    font-size: 12px;
+    color: #666666;
+    background: #ffffff;
+}
+h1 {
+    margin: 0;
+    padding: 0;
+    float: right;
+    margin-top: 57px;
+    padding-right: 31px;
+}
+
+.hidden {
+    display: none;
+}
+
+#page-container {
+    width: 760px;
+    margin: auto;
+}
+
+#main-nav {
+    background: black;
+    height: 30px;
+}
+
+#header {
+    height: 150px;
+    background: #db6d16
+      url(../images/headers/banner.jpg);
+}
+
+#sidebar-a {
+    float: right;
+    width: 280px;
+    line-height: 18px;
+}
+ 
+#sidebar-a  .padding{
+     padding: 25px;
+}
+
+#content {
+    margin-right: 280px;
+    line-height: 18px;
+}
+
+#content  .padding{
+     padding: 25px;
+}
+
+#content h2 {
+    margin: 0;
+    padding: 0;
+    padding-bottom: 15px;
+}
+
+#content p {
+    margin: 0;
+    padding: 0;
+    padding-bottom: 15px;
+}
+
+#footer {
+        clear: both;
+        font-family: Tahoma, Arial, Helvetica, Sans-serif;
+        font-size: 10px;
+        color: #c9c9c9;
+        border-top: 1px solid #efefef;
+        padding: 13px 25px;
+        line-height: 18px;
+}
+
+#footer a {
+    color: #c9c9c9;
+    text-decoration: none;
+}
+
+#footer a:hover {
+    color: #db6d16;
+}
+
+#footer #altnav {
+    width: 350px;
+    float: right;
+    text-align: right;
+}
