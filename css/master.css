@@ -1,3 +1,4 @@
+/* Inspired by subcide.com */
 html, body {
     margin: 0;
     padding: 0;
@@ -32,8 +33,8 @@ h1 {
 
 #header {
     height: 150px;
-    background: #db6d16
-      url(../images/headers/banner.jpg);
+    background: #224422
+      url(../images/layout/banner.jpg);
 }
 
 #sidebar-a {
@@ -83,7 +84,7 @@ h1 {
 }
 
 #footer a:hover {
-    color: #db6d16;
+    color: #224422;
 }
 
 #footer #altnav {
@@ -91,3 +92,10 @@ h1 {
     float: right;
     text-align: right;
 }
+
+/* definitions for posts */
+img.floatleft { 
+    float: left; 
+    margin: 5px; 
+}
+

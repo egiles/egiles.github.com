@@ -1,71 +1,8 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html>
-<head>
-    <title>Giles - Home</title>
-     
-    <meta http-equiv="Content-type" content="text/html; charset=UTF-8" />
-    <meta http-equiv="Content-Language" content="en-nz" />
-
-    <meta name="description" content="Blog" />
-    <meta name="author" content="Evan Giles" />
-     
-    <style type="text/css" media="all">@import "css/master.css";</style> 
-</head>
- 
-<body>
-
-<div id="main-nav">
-</div>
-
-<div id="page-container">
-
-    <div id="header">
-            <h1><img src="images/headers/logo.gif"
-            width="236" height="36" alt="Giles Stuff" border="0" /></h1>
-    </div>
-
-    <div id="sidebar-a">
-      <div class="padding">
-        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nullam gravida enim ut risus.
-        Praesent sapien purus, ultrices a, varius ac, suscipit ut, enim. Maecenas in lectus.
-        Donec in sapien in nibh rutrum gravida. Sed ut mauris. Fusce malesuada enim vitae lacus
-        euismod vulputate. Nullam rhoncus mauris ac metus. Maecenas vulputate aliquam odio.
-        Duis scelerisque justo a pede. Nam augue lorem, semper at, porta eget, placerat eget,
-        purus. Suspendisse mattis nunc vestibulum ligula. In hac habitasse platea dictumst.
-      </div>
-    </div>
-
-    <div id="content">
-      <div class="padding">
-        <h2>About</h2>
-        <p><strong>Evan Giles</strong> is an Internet solutions provider that specialises in front and back end development. To view some of the web sites we have created view our portfolio.</p>
-        <p>We are currently undergoing a 'face lift', so if you have any questions or would like more information about the services we provide please feel free to contact us.</p>
-        
-        <h2>Contact Us</h2>
-        <p>Phone:   (04) 479 9999<br />
-        Fax:     (04) 479 4444<br />
-        Email:   <a href="mailto:info@giles.net.nz">info@giles.net.nz</a><br />
-        Wellington, New Zealand</p>
-        <p><a href="#">More contact information…</a></p>
-      </div>
-    </div>
-
-    <div id="footer">
-        <div id="altnav">
-            <a href="#">About</a> -
-            <a href="#">Services</a> -
-            <a href="#">Portfolio</a> -
-            <a href="#">Contact Us</a> -
-            <a href="#">Terms of Trade</a>
-        </div>
-        Copyright © Evan Giles
- 
-        Powered by <a href="http://www.enlightenhosting.com/">Evan Giles</a> and
-        <a href="http://www.vadmin.co.nz/">Vadmin 3.0 CMS</a>
-    </div>
-
-</div>
- 
-</body>
-</html>
+---
+layout: default
+title: Giles Stuff
+---
+{% for post in site.posts limit:5 %}
+  <h2> {{ post.title }} </h2>
+  {{ post.content }}
+{% endfor %}
