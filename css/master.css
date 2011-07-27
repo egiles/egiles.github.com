@@ -1,8 +1,4 @@
 /* Inspired by subcide.com */
-html, body {
-    margin: 0;
-    padding: 0;
-}
 body {
     font-family: Arial, Helvetica, Verdana, Sans-serif;
     font-size: 12px;
@@ -57,14 +53,10 @@ h1 {
 }
 
 #content h2 {
-    margin: 0;
-    padding: 0;
     padding-bottom: 15px;
 }
 
 #content p {
-    margin: 0;
-    padding: 0;
     padding-bottom: 15px;
 }
 

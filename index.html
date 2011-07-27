@@ -4,5 +4,6 @@ title: Giles Stuff
 ---
 {% for post in site.posts limit:5 %}
   <h2> {{ post.title }} </h2>
+  <div class="byline">{{ post.date | date_to_long_string }}</div>
   {{ post.content }}
 {% endfor %}
