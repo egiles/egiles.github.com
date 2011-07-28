@@ -92,3 +92,6 @@ img.floatleft {
     margin: 5px; 
 }
 
+.post {
+    overflow: auto;
+}
