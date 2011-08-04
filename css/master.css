@@ -53,7 +53,8 @@ h1 {
 }
 
 #content h2 {
-    padding-bottom: 15px;
+    padding-bottom: 5px;
+    padding-top: 10px;
     font-size: large;
 }
 
@@ -97,7 +98,7 @@ img.floatleft {
 }
 
 .post img {
-    margin: 15px;
-    border: 1px solid blue;
+    margin: 5px;
+    border: 1px solid black;
 }
 
