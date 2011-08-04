@@ -8,3 +8,6 @@ clean:
 
 server: all
 	${JEKYLL} --server
+
+deploy: all
+	scp -r _site/* tui.home.giles.net.nz:public_html/

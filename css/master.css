@@ -95,3 +95,9 @@ img.floatleft {
 .post {
     overflow: auto;
 }
+
+.post img {
+    margin: 15px;
+    border: 1px solid blue;
+}
+
