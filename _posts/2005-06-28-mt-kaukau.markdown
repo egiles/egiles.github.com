@@ -3,7 +3,7 @@ layout: post
 title: Mt Kau Kau
 ---
 
-  <img src="images/content/dsc00663.jpg" class="floatleft" />
+  <img src="/images/content/dsc00663.jpg" class="floatleft" />
 
 I went for a walk up Mt Kaukau with Dan Moore, he took
 Charlotte and I took Alister.

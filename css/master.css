@@ -6,8 +6,6 @@ body {
     background: #ffffff;
 }
 h1 {
-    margin: 0;
-    padding: 0;
     float: right;
     margin-top: 57px;
     padding-right: 31px;
@@ -43,6 +41,11 @@ h1 {
      padding: 25px;
 }
 
+#sidebar-a h2 {
+    padding-bottom: 5px;
+    padding-top: 10px;
+}
+
 #content {
     margin-right: 280px;
     line-height: 18px;
@@ -72,12 +75,12 @@ h1 {
         line-height: 18px;
 }
 
-#footer a {
+a {
     color: #c9c9c9;
     text-decoration: none;
 }
 
-#footer a:hover {
+a:hover {
     color: #224422;
 }
 

@@ -10,8 +10,8 @@
     <meta name="description" content="Blog" />
     <meta name="author" content="Evan Giles" />
      
-    <style type="text/css" media="all">@import "css/reset.css";</style> 
-    <style type="text/css" media="all">@import "css/master.css";</style> 
+    <style type="text/css" media="all">@import "/css/reset.css";</style> 
+    <style type="text/css" media="all">@import "/css/master.css";</style> 
 </head>
  
 <body>
@@ -27,13 +27,11 @@
     </div>
 
     <div id="sidebar-a">
-      <div class="hidden">
-        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nullam enim ut risus.
-        Praesent sapien purus, ultrices a, varius, suscipit ut, enim. Maecenas in lectus.
-        Donec in sapien in rutrum gravida. Sed ut mauris. Fusce malesuada enim vitae lacus
-        euismod vulputate. Nullam rhoncus mauris metus. Maecenas vulputate aliquam odio.
-        Duis scelerisque justo a pede. Nam lorem, semper at, porta eget, placerat eget,
-        purus. Suspendisse mattis nunc vestibulum ligula. In habitasse platea dictumst.
+      <div class="padding">
+        <h2> Latest Posts </h2>
+        {% for post in site.posts limit:10 %}
+        <p>  <a href="{{ post.url }}">{{ post.title }}</a>
+        {% endfor %}
       </div>
     </div>
 
@@ -48,7 +46,7 @@
             <a href="#">About</a> -
             <a href="http://search.cpan.org/~egiles/">CPAN</a> -
             <a href="https://github.com/egiles">Git Hub</a> -
-            <a href="http://giles.net.nz:8000">Blog</a> -
+            <a href="http://wiki.giles.net.nz">Wiki</a> -
         </div>
         Copyright © Evan Giles
  
