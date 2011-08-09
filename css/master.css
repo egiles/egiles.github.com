@@ -1,4 +1,4 @@
-/* Inspired by subcide.com */
+/* Definitions for standard componenets */
 body {
     font-family: Arial, Helvetica, Verdana, Sans-serif;
     font-size: 12px;
@@ -10,7 +10,15 @@ h1 {
     margin-top: 57px;
     padding-right: 31px;
 }
+a {
+    text-decoration: none;
+    color: #4A6C4D;
+}
+a:hover {
+    color: black;
+}
 
+/* Definitions used by the page layout */
 .hidden {
     display: none;
 }
@@ -28,7 +36,7 @@ h1 {
 #header {
     height: 150px;
     background: #224422
-      url(../images/layout/banner.jpg);
+      url(/images/layout/banner.jpg);
 }
 
 #sidebar-a {
@@ -66,22 +74,13 @@ h1 {
 }
 
 #footer {
-        clear: both;
-        font-family: Tahoma, Arial, Helvetica, Sans-serif;
-        font-size: 10px;
-        color: #c9c9c9;
-        border-top: 1px solid #efefef;
-        padding: 13px 25px;
-        line-height: 18px;
-}
-
-a {
+    clear: both;
+    font-family: Tahoma, Arial, Helvetica, Sans-serif;
+    font-size: 10px;
     color: #c9c9c9;
-    text-decoration: none;
-}
-
-a:hover {
-    color: #224422;
+    border-top: 1px solid #efefef;
+    padding: 13px 25px;
+    line-height: 18px;
 }
 
 #footer #altnav {
