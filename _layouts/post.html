@@ -4,6 +4,18 @@ layout: default
 <div class="post">
   <h2> {{ page.title }} </h2>
   <div class="byline">{{ page.date | date_to_long_string }}</div>
+
   {{ content }}
+
+  {% if page.previous or page.next %}
+    <div style="clear:both;">
+      {% if page.previous %}
+        <a href="{{ page.previous.url }}">Previous</a>
+      {% endif %}
+      {% if page.next %}
+      <div style="float:right"> <a href="{{ page.next.url }}">Next</a></div>
+      {% endif %}
+    </div>
+  {% endif %}
 </div>
 
