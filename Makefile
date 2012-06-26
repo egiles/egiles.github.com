@@ -1,4 +1,5 @@
 JEKYLL=/var/lib/gems/1.8/bin/jekyll
+REMOTE=tui.home.giles.net.nz
 
 all: 
 	${JEKYLL} 
@@ -10,4 +11,6 @@ server: all
 	${JEKYLL} --server
 
 deploy: all
-	scp -r _site/* tui.home.giles.net.nz:public_html/
+	ssh ${REMOTE} rm -rf blog/
+	ssh ${REMOTE} mkdir -p blog
+	scp -r _site/* ${REMOTE}:blog/
