@@ -7,12 +7,12 @@ body {
 }
 h1 {
     float: right;
-    margin-top: 57px;
-    padding-right: 31px;
+    margin-top: 7px;
+    padding-right: 15px;
 }
 a {
     text-decoration: none;
-    color: #4A6C4D;
+    color: #003377
 }
 a:hover {
     color: black;
@@ -36,7 +36,7 @@ a:hover {
 #header {
     height: 150px;
     background: #224422
-      url(/images/layout/banner.jpg);
+    url(/images/layout/banner.jpg);
 }
 
 #sidebar-a {
