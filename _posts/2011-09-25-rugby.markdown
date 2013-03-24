@@ -2,8 +2,8 @@
 layout: post
 title: Rugby World Cup
 ---
-<img src="/images/content/20110925-DSC07487.jpg"/>
-<img src="/images/content/20110925-DSC07485.jpg"/>
+<img src="/images/content/20110925-DSC07487.jpg" alt="photo"/>
+<img src="/images/content/20110925-DSC07485.jpg" alt="photo"/>
 Rugby World Cup, 2011 - Scotland vs Argentina.
 
 There are a few games played in Wellington, just too good an

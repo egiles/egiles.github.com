@@ -2,9 +2,9 @@
 layout: post
 title: Fishing
 ---
-<img src="/images/content/20110521-DSC07368.jpg"/>
-<img src="/images/content/20110521-DSC07371.jpg"/>
-<img src="/images/content/20110521-DSC07374.jpg"/>
+<img src="/images/content/20110521-DSC07368.jpg" alt="photo"/>
+<img src="/images/content/20110521-DSC07371.jpg" alt="photo"/>
+<img src="/images/content/20110521-DSC07374.jpg" alt="photo"/>
 A beautiful day in the middle of winter,
 so we decided to go fishing dwon by Frank Kitts park, and ended 
 up catching quite a few little fish really quickly.

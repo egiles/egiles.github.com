@@ -13,6 +13,6 @@ sea level).
 
 Very exciting.
 
-<img src="/images/content/20110814-DSC07458.jpg"/>
-<img src="/images/content/20110814-DSC07455.jpg"/>
+<img src="/images/content/20110814-DSC07458.jpg" alt="photo"/>
+<img src="/images/content/20110814-DSC07455.jpg" alt="photo"/>
 

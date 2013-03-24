@@ -3,7 +3,7 @@ layout: post
 title: Oliver Luke Giles
 ---
 
-<img src="/images/content/IMG_0097.jpg"/>
+<img src="/images/content/IMG_0097.jpg" alt="photo"/>
 
 I am getting some emails from Blair at the moment. He is very proud
 of his brand new baby!

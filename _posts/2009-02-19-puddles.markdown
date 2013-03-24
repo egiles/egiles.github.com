@@ -2,7 +2,7 @@
 layout: post
 title: Puddles
 ---
-<img src="/images/content/20090206-DSC02595.jpg" class="floatleft"/>
+<img src="/images/content/20090206-DSC02595.jpg" alt="photo" class="floatleft"/>
 We couldn't go camping at Christmas because everyone was sick... so we
 decided to at least get away for 1 night in Greytown. We went for a swim
 at the pool but we didn't have any of those 'swimmer' nappies - so Billy

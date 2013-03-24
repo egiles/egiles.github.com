@@ -2,7 +2,7 @@
 layout: post
 title: Piano Competition
 ---
-<img src="/images/content/20111009-DSC02463.jpg"/>
+<img src="/images/content/20111009-DSC02463.jpg" alt="alister"/>
 For a long time Alister has been wanting a chance to win something
 - Claire gets quite a lot of oppurtunity with her dancing, but he
 hasn't really had much of a chance.
