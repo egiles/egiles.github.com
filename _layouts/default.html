@@ -1,10 +1,10 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
 
 <head>
     <title>{{ page.title }}</title>
-     
+
     <meta http-equiv="Content-type" content="text/html; charset=UTF-8" />
     <meta http-equiv="Content-Language" content="en-nz" />
 
@@ -12,52 +12,49 @@
     <meta name="description" content="Personal photo blog for Evan Giles." />
     <meta name="keywords" content="personal, nz, new zealand, blog, evan giles, photos, family" />
 
-    <style type="text/css" media="all">@import "/css/reset.css";</style> 
-    <style type="text/css" media="all">@import "/css/master.css";</style> 
+    <style type="text/css" media="all">@import "/bootstrap/css/bootstrap.min.css";</style>
+    <style type="text/css" media="all">@import "/css/site.css";</style>
 </head>
- 
+
 <body>
 
-<div id="main-nav">
-</div>
-
-<div id="page-container">
-
-    <div id="header">
-        <h1> <img src="images/layout/banner-text.gif" alt="Giles Stuff" /> </h1>
-    </div>
-
-    <div id="sidebar-a">
-      <div class="padding">
-        <h2> Latest Posts </h2>
-        {% for post in site.posts limit:10 %}
-        <p>  <a href="{{ post.url }}">{{ post.title }}</a> </p>
-        {% endfor %}
-        <h2><a href="/archives.html">Full Archive</a></h2>
-      </div>
-    </div>
-
-    <div id="content">
-      <div class="padding">
-          {{ content }}
-      </div>
-    </div>
-
-    <div id="footer">
-        <div id="altnav">
-              <a href="/about.html">About</a>
-            - <a href="http://search.cpan.org/~egiles/">CPAN</a>
-            - <a href="http://github.com/egiles">Git Hub</a> 
-            - <a href="http://egiles.blogspot.com">Old Blog</a> 
-            - <a href="/atom.xml">RSS</a> 
+    <div class="row-fluid">
+        <div class="span10 offset1 header">
+            <h1> <img src="/images/layout/banner-text.gif" alt="Giles Stuff" /> </h1>
         </div>
-        Copyright © Evan Giles
- 
-        Powered by <a href="/about.html">Evan Giles</a> and
-        <a href="http://jekyllrb.com/">Jekyll</a>
+        <div class="span6 offset1">
+          {{ content }}
+        </div>
+        <div class="span4 sidebar">
+            <h2> Latest Posts </h2>
+            {% for post in site.posts limit:10 %}
+            <p>  <a href="{{ post.url }}">{{ post.title }}</a> </p>
+            {% endfor %}
+            <h2><a href="/archives.html">Full Archive</a></h2>
+        </div>
     </div>
 
-</div>
- 
+    <div class="row-fluid footer">
+        <div class="span5 offset1">
+            Copyright © Evan Giles
+
+            Powered by <a href="/about.html">Evan Giles</a> and
+            <a href="http://jekyllrb.com/">Jekyll</a>
+        </div>
+        <div class="span5">
+            <div class="footerlinks">
+                <a href="/about.html">About</a>
+                - <a href="https://metacpan.org/author/EGILES">CPAN</a>
+                - <a href="http://github.com/egiles">Git Hub</a> 
+                - <a href="http://egiles.blogspot.com">Old Blog</a> 
+                - <a href="/atom.xml">RSS</a> 
+            </div>
+        </div>
+    </div>
+
+
+    <script src="http://code.jquery.com/jquery.js" type="text/javascript"></script>
+    <script src="bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+
 </body>
 </html>
