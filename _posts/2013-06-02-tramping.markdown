@@ -3,7 +3,7 @@ layout: post
 title: Tramping with the boys
 ---
 <div style="float:left">
-<img src="/images/content/20130601-river1.jpg" alt="Boys by the river"/>
+<img src="/images/content/20130601-river1.jpg" alt="Boys by the river" class="img-rounded"/>
 </div>
 
 I took Alister and Billy tramping with Dan and his girls over Queens Birthday
