@@ -23,7 +23,10 @@ a:hover {
     color: black;
     text-decoration: none;
 }
-
+blockquote p {
+    font-size: 12px;
+    font-family: "Courier New", Courier, monospace
+}
 /* Definitions used by the page layout */
 .header {
     height: 150px;
