@@ -1,5 +1,5 @@
 safe: true
 lsi: false
-pygments: true
-exclude: Makefile
+highlighter: pygments
+exclude: [Makefile]
 

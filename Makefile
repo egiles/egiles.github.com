@@ -1,9 +1,9 @@
-JEKYLL=/var/lib/gems/1.8/bin/jekyll
-REMOTE=tui.home.giles.net.nz
+JEKYLL=/usr/bin/jekyll
+REMOTE=tui.giles.net.nz
 DIR=blog
 
-all: 
-	${JEKYLL} 
+all:
+	${JEKYLL} build
 
 clean:
 	rm -r _site/*
