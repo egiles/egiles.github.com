@@ -32,6 +32,7 @@ blockquote p {
     height: 150px;
     background: #224422
     url(/images/layout/banner.png);
+    background-repeat: round;
 }
 
 .sidebar {

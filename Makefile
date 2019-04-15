@@ -1,5 +1,5 @@
 JEKYLL=/usr/bin/jekyll
-REMOTE=tui.giles.net.nz
+REMOTE=pi.giles.net.nz
 DIR=blog
 
 all:
