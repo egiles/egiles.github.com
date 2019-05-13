@@ -1,64 +1,68 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
     <title>{{ page.title }}</title>
 
-    <meta http-equiv="Content-type" content="text/html; charset=UTF-8" />
-    <meta http-equiv="Content-Language" content="en-nz" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <meta name="author" content="Evan Giles" />
     <meta name="description" content="Personal photo blog for Evan Giles." />
     <meta name="keywords" content="personal, nz, new zealand, blog, evan giles, photos, family" />
 
-    <style type="text/css" media="all">@import "/bootstrap/css/bootstrap.min.css";</style>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <style type="text/css" media="all">@import "/css/site.css";</style>
 </head>
 
 <body>
 
-    <div class="row-fluid">
-        <div class="span10 offset1 header">
-            <h1>
-                <a href="/">
-                    <img src="/images/layout/banner-text.gif" alt="Giles Stuff" />
-                </a>
-            </h1>
+    <div class="container">
+        <div class="row-fluid">
+            <div class="span10 offset1 header">
+                <h1>
+                    <a href="/">
+                        <img src="/images/layout/banner-text.gif" alt="Giles Stuff" />
+                    </a>
+                </h1>
+            </div>
+            <div class="span6 offset1">
+            {{ content }}
+            </div>
+            <div class="span4 sidebar">
+                <h2> Latest Posts </h2>
+                {% for post in site.posts limit:10 %}
+                <p>  <a href="{{ post.url }}">{{ post.title }}</a> </p>
+                {% endfor %}
+                <h2><a href="/archives.html">Full Archive</a></h2>
+            </div>
         </div>
-        <div class="span6 offset1">
-          {{ content }}
-        </div>
-        <div class="span4 sidebar">
-            <h2> Latest Posts </h2>
-            {% for post in site.posts limit:10 %}
-            <p>  <a href="{{ post.url }}">{{ post.title }}</a> </p>
-            {% endfor %}
-            <h2><a href="/archives.html">Full Archive</a></h2>
-        </div>
-    </div>
 
-    <div class="row-fluid footer">
-        <div class="span5 offset1">
-            Copyright © Evan Giles
+        <div class="row-fluid footer">
+            <div class="span5 offset1">
+                Copyright © Evan Giles
 
-            Powered by <a href="/about.html">Evan Giles</a> and
-            <a href="http://jekyllrb.com/">Jekyll</a>
-        </div>
-        <div class="span5">
-            <div class="footerlinks">
-                <a href="/about.html">About</a>
-                - <a href="https://metacpan.org/author/EGILES">CPAN</a>
-                - <a href="http://github.com/egiles">Git Hub</a> 
-                - <a href="http://egiles.blogspot.com">Old Blog</a> 
-                - <a href="/atom.xml">RSS</a> 
+                Powered by <a href="/about.html">Evan Giles</a> and
+                <a href="http://jekyllrb.com/">Jekyll</a>
+            </div>
+            <div class="span5">
+                <div class="footerlinks">
+                    <a href="/about.html">About</a>
+                    - <a href="https://metacpan.org/author/EGILES">CPAN</a>
+                    - <a href="http://github.com/egiles">Git Hub</a> 
+                    - <a href="http://egiles.blogspot.com">Old Blog</a> 
+                    - <a href="/atom.xml">RSS</a> 
+                </div>
             </div>
         </div>
     </div>
 
 
-    <script src="http://code.jquery.com/jquery.js" type="text/javascript"></script>
-    <script src="bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
 </body>
 </html>
