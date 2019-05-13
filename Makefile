@@ -1,17 +1,19 @@
+.PHONEY: build clean server deploy
+
 JEKYLL=/usr/bin/jekyll
 REMOTE=pi.giles.net.nz
 DIR=blog
 
-all:
+build:
 	${JEKYLL} build
 
 clean:
 	rm -r _site/*
 
-server: all
+server: build
 	${JEKYLL} --server
 
-deploy: all
-	ssh ${REMOTE} rm -rf ${DIR}/
+deploy: clean build
 	ssh ${REMOTE} mkdir -p ${DIR}
-	scp -r _site/* ${REMOTE}:${DIR}/
+	echo scp -r _site/* ${REMOTE}:${DIR}/
+	rsync -rvad _site/* ${REMOTE}:${DIR}/

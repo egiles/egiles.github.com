@@ -4,7 +4,12 @@ title: Masterton music camp
 ---
 We went to Suzuki camp again in Masterton.  All 3 kids played in front of an audience by themselves and in ensembles.  Lots of fun!
 
-Here are some videos...
-<a href="/images/20140117-M2U00400.mp4"> Claire </a>,
-<a href="/images/20140118-M2U00403.mp4"> Alister </a>,
-<a href="/images/20140120-M2U00413.mp4"> Billy </a>
+<video src="/images/20140117-M2U00400.mp4" controls width="320" height="240"> 
+    <a href="/images/20140117-M2U00400.mp4"> Claire </a>
+</video>
+<video src="/images/20140118-M2U00403.mp4" controls width="320" height="240"> 
+    <a href="/images/20140118-M2U00403.mp4"> Alister </a>,
+</video>
+<video src="/images/20140120-M2U00413.mp4" controls width="320" height="240"> 
+    <a href="/images/20140120-M2U00413.mp4"> Billy </a>,
+</video>
