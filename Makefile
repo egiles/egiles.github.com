@@ -15,5 +15,4 @@ server: build
 
 deploy: clean build
 	ssh ${REMOTE} mkdir -p ${DIR}
-	echo scp -r _site/* ${REMOTE}:${DIR}/
-	rsync -rad _site/* ${REMOTE}:${DIR}/
+	rsync -ra --delete _site/* ${REMOTE}:${DIR}/

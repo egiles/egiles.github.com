@@ -2,11 +2,14 @@
 layout: post
 title: Slides
 ---
+<div class="media">
+    <img src="/images/content/dsc00834.jpg" alt="photo"/>
+    <img src="/images/content/dsc00781.jpg" alt="photo"/>
 
-<img src="/images/content/dsc00834.jpg" alt="photo"/>
-<img src="/images/content/dsc00781.jpg" alt="photo"/>
+    <div class="media-body">
+        <p>Not much to show for several months of photos, but both Alister & Claire
+        have been having loads of fun (we went on holiday to Masterton/Napier/Toupo)</p>
 
-Not much to show for several months of photos, but both Alister & Claire
-have been having loads of fun (we went on holiday to Masterton/Napier/Toupo)
-
-Now we are all waiting for the next arrival from the stork....
+        <p>Now we are all waiting for the next arrival from the stork....</p>
+    </div>
+</div>

@@ -2,16 +2,21 @@
 layout: post
 title: Fishing
 ---
-<img src="/images/content/20110521-DSC07368.jpg" alt="photo"/>
-<img src="/images/content/20110521-DSC07371.jpg" alt="photo"/>
-<img src="/images/content/20110521-DSC07374.jpg" alt="photo"/>
-A beautiful day in the middle of winter,
-so we decided to go fishing dwon by Frank Kitts park, and ended 
-up catching quite a few little fish really quickly.
+<div class="media">
+    <img src="/images/content/20110521-DSC07368.jpg" alt="photo"/>
+    <img src="/images/content/20110521-DSC07371.jpg" alt="photo"/>
+    <img src="/images/content/20110521-DSC07374.jpg" alt="photo"/>
 
-Unfortunately, once we caught them they had to be dispatched, and
-all the kids watched really intently as the little fish went from
-alive to.... not alive.
+    <div class="media-body">
+        <p>A beautiful day in the middle of winter,
+        so we decided to go fishing dwon by Frank Kitts park, and ended
+        up catching quite a few little fish really quickly.</p>
 
-Since then Billy has been very careful about where his food comes
-from, and "where are the eyes", and "is meat really a cow"...
+        <p>Unfortunately, once we caught them they had to be dispatched, and
+        all the kids watched really intently as the little fish went from
+        alive to.... not alive.</p>
+
+        <p>Since then Billy has been very careful about where his food comes
+        from, and "where are the eyes", and "is meat really a cow"...</p>
+    </div>
+</div>

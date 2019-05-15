@@ -2,7 +2,12 @@
 layout: post
 title: Day trip
 ---
-<img src="/images/content/20100427-DSC03718.jpg" alt="photo"/>
-<img src="/images/content/20100427-DSC03721.jpg" alt="photo"/>
-Sonia brought Billy in to meet me for lunch today, they caught the train.
-When you're three, that makes for a very exciting day.
+<div class="media">
+    <img src="/images/content/20100427-DSC03718.jpg" alt="photo"/>
+    <img src="/images/content/20100427-DSC03721.jpg" alt="photo"/>
+
+    <div class="media-body">
+        Sonia brought Billy in to meet me for lunch today, they caught the train.
+        When you're three, that makes for a very exciting day.
+    </div>
+</div>

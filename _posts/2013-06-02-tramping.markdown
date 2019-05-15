@@ -2,21 +2,23 @@
 layout: post
 title: Tramping with the boys
 ---
-<div style="float:left">
-<img src="/images/content/20130601-river1.jpg" alt="Boys by the river" class="img-rounded"/>
+<div class="media">
+    <img src="/images/content/20130601-river1.jpg" alt="Boys by the river" class="rounded"/>
+
+    <div class="media-body">
+        <p>I took Alister and Billy tramping with Dan and his girls over Queens Birthday
+        weekend.  We went into the Orongorongos.</p>
+
+        <p>It was a pretty easy walk which is supposed to take less than two hours, but
+        it took us three.  That is fair enough considering the age of the children.</p>
+
+        <p>Everyone had a pretty good time, but:
+        * Alister fell off the bunk in the hut and hurt his toe
+        * Billy fell into the river </p>
+
+        <p>Billy ended up cold, and Alister limped all the way home.  I didn't give him a
+        lot of sympathy, so I felt quite guilty when the bruising came out after we
+        got home.  A quick trip to the doctor reassured us that it wasn't broken, so
+        we can count it as a sucessful trip.</p>
+    </div>
 </div>
-
-I took Alister and Billy tramping with Dan and his girls over Queens Birthday
-weekend.  We went into the Orongorongos.
-
-It was a pretty easy walk which is supposed to take less than two hours, but
-it took us three.  That is fair enough considering the age of the children.
-
-Everyone had a pretty good time, but:
-* Alister fell off the bunk in the hut and hurt his toe
-* Billy fell into the river 
-
-Billy ended up cold, and Alister limped all the way home.  I didn't give him a
-lot of sympathy, so I felt quite guilty when the bruising came out after we 
-got home.  A quick trip to the doctor reassured us that it wasn't broken, so
-we can count it as a sucessful trip.
