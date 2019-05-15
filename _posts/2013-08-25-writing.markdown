@@ -23,7 +23,7 @@ title: Claire's writing
 
     <p>GRANDAD.</p>
 
-    <footer class="blockquote-footer">Claie</footer>
+    <footer class="blockquote-footer">Claire</footer>
 </blockquote>
 
 
