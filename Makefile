@@ -2,7 +2,7 @@
 
 JEKYLL=/usr/bin/jekyll
 REMOTE=pi.giles.net.nz
-DIR=blog
+REMOTEDIR=blog
 
 build:
 	${JEKYLL} build
@@ -14,5 +14,5 @@ server: build
 	${JEKYLL} --server
 
 deploy: clean build
-	ssh ${REMOTE} mkdir -p ${DIR}
-	rsync -ra --delete _site/* ${REMOTE}:${DIR}/
+	ssh ${REMOTE} mkdir -p ${REMOTEDIR}
+	rsync -ra --delete _site/* ${REMOTE}:${REMOTEDIR}/
