@@ -8,7 +8,7 @@ build:
 	${JEKYLL} build
 
 clean:
-	rm -r _site/*
+	rm -rf _site/*
 
 server: build
 	${JEKYLL} --server
