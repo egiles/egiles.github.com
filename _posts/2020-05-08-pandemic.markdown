@@ -1,0 +1,19 @@
+---
+layout: post
+title: Family sport challenge
+---
+The world has been in lockdown due to the covid19 pandemic, during all this, Sonia's
+Family have been doing weekly online video conferencing... and each week they have
+been issueing challenges.
+
+This week we did a sport challenge, so we decided to climb Mt Kau Kau every day.  We
+took a quick video at the top each day and this is the result.
+
+If you look closely, you can see that even though we all climbed up a couple of times,
+only Claire did it every day.
+
+<div class="media">
+    <video src="/images/2020-mtkaukau.mp4" controls class="mx-1" style="max-width:100%; height:auto">
+        <a href="/images/2020-mtkaukau.mp4"> Family sports challenge </a>
+    </video>
+</div>
