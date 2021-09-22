@@ -1,7 +1,7 @@
 .PHONEY: build clean server deploy
 
 JEKYLL=/usr/bin/jekyll
-REMOTE=pi.giles.net.nz
+REMOTE=tui.giles.net.nz
 REMOTEDIR=blog
 
 build:
