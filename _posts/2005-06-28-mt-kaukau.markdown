@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Mt Kau Kau
+title: Mt Kaukau
 ---
 <div class="media">
   <img src="/images/content/dsc00663.jpg" alt="photo"/>
