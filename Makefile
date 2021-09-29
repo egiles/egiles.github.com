@@ -7,7 +7,7 @@ REMOTEDIR=blog
 build: test
 	${JEKYLL} build --config _config.yml,_config_local.yml
 
-test:
+test: clean
 	${JEKYLL} doctor --config _config.yml,_config_local.yml
 
 clean:
@@ -16,6 +16,6 @@ clean:
 server: build
 	${JEKYLL} --server
 
-deploy: clean build
+deploy: build
 	ssh ${REMOTE} mkdir -p ${REMOTEDIR}
 	rsync -ra --delete _site/* ${REMOTE}:${REMOTEDIR}/
