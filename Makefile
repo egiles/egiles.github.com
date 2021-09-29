@@ -1,11 +1,14 @@
-.PHONEY: build clean server deploy
+.PHONEY: build test clean server deploy
 
 JEKYLL=/usr/bin/jekyll
 REMOTE=tui.giles.net.nz
 REMOTEDIR=blog
 
-build:
-	${JEKYLL} build
+build: test
+	${JEKYLL} build --config _config.yml,_config_local.yml
+
+test:
+	${JEKYLL} doctor --config _config.yml,_config_local.yml
 
 clean:
 	rm -rf _site/*
